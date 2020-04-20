@@ -82,5 +82,5 @@ document.addEventListener('DOMContentLoaded', () => {
       clearInterval(invaderId)
     }
   }
-  
+  invaderId = setInterval(moveInvaders, 500)
 })
