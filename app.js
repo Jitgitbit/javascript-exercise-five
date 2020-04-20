@@ -123,4 +123,5 @@ document.addEventListener('DOMContentLoaded', () => {
         break
     }
   }
+  document.addEventListener('keyup', shoot)
 })
